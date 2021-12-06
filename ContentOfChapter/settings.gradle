@@ -10,3 +10,4 @@ rootProject.name = "ContentOfChapter"
 include ':app'
 include ':ch7'
 include ':ch7_1'
+include ':ch7_2'

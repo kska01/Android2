@@ -11,5 +11,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BUTTON2" />
+        android:text="BUTTON2"
+        android:layout_weight="3"/>
 </LinearLayout>

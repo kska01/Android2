@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="연락차에 추가"
+            android:text="연락처에 추가"
             android:textColor="#00ff00"
             android:textStyle="bold" />
     </LinearLayout>

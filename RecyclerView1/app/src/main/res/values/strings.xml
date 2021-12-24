@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerView1</string>
+    <string name="menu1">명란젓</string>
+    <string name="menu2">어리굴젓</string>
+    <string name="menu3">오징어젓</string>
+    <string name="menu4">낙지젓</string>
+    <string name="menu5">가리비젓</string>
+    <string name="menu6">갈치쌈장</string>
+</resources>

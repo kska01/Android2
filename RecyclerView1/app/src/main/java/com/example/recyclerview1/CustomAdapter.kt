@@ -24,7 +24,7 @@ class CustomAdapter: RecyclerView.Adapter<Holder>() {
 
 class Holder(val binding: ItemLayoutBinding): RecyclerView.ViewHolder(binding.root){
     fun setMenu(menu: Menu) {
-        binding.menuName.text = "${menu.menuName}"
+        binding.menuName.text = menu.menuName
         binding.foodImage.setImageResource(menu.menuImage)
     }
 }

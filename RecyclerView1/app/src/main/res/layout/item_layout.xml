@@ -17,7 +17,8 @@
             android:id="@+id/foodImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:adjustViewBounds="true"/>
+            android:adjustViewBounds="true"
+            android:src="@drawable/menu1"/>
         <TextView
             android:id="@+id/menuName"
             android:layout_width="match_parent"

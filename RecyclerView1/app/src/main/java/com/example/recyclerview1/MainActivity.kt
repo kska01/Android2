@@ -25,12 +25,12 @@ class MainActivity : AppCompatActivity() {
 
     fun loadData(): MutableList<Menu> {
         val data: MutableList<Menu> = mutableListOf()
-        data[0] = Menu(R.drawable.menu1, R.string.menu1)
-        data[1] = Menu(R.drawable.menu2, R.string.menu2)
-        data[2] = Menu(R.drawable.menu3, R.string.menu3)
-        data[3] = Menu(R.drawable.menu4, R.string.menu4)
-        data[4] = Menu(R.drawable.menu5, R.string.menu5)
-        data[5] = Menu(R.drawable.menu6, R.string.menu6)
+        data.add(Menu(R.drawable.menu1, "명란젓"))
+        data.add(Menu(R.drawable.menu2, "어리굴젓"))
+        data.add(Menu(R.drawable.menu3, "오징어젓"))
+        data.add(Menu(R.drawable.menu4, "낙지젓"))
+        data.add(Menu(R.drawable.menu5, "가리비젓"))
+        data.add(Menu(R.drawable.menu6, "갈치속젓"))
 
         return data
     }

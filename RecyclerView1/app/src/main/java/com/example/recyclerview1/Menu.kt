@@ -1,3 +1,5 @@
 package com.example.recyclerview1
 
-data class Menu(var menuImage: Int, var menuName: Int)
+import android.media.Image
+
+data class Menu(var menuImage: Int, var menuName: String)

@@ -21,13 +21,15 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
     }
     fun loadData(): MutableList<Menu> {
-        var data: MutableList<Menu> = mutableListOf()
-        data[0] = Menu(R.drawable.menu1, R.string.menu_name1)
-        data[1] = Menu(R.drawable.menu2, R.string.menu_name2)
-        data[2] = Menu(R.drawable.menu3, R.string.menu_name3)
-        data[3] = Menu(R.drawable.menu4, R.string.menu_name4)
-        data[4] = Menu(R.drawable.menu5, R.string.menu_name5)
-        data[5] = Menu(R.drawable.menu6, R.string.menu_name6)
+        var data: MutableList<Menu> = mutableListOf(
+            Menu(R.drawable.menu1, "명란젓"),
+            Menu(R.drawable.menu2, "어리굴젓"),
+            Menu(R.drawable.menu3, "오징어젓"),
+            Menu(R.drawable.menu4, "낙지젓"),
+            Menu(R.drawable.menu5, "가리비젓"),
+            Menu(R.drawable.menu6, "갈치쌈장")
+        )
+
         return data
     }
 }
